@@ -12,6 +12,7 @@ public class AreaDaoTest extends BaseTest{//继承BaseTest加载spring-dao配置
     @Autowired
     private AreaDao areaDao;
 
+    //测试AreaDao的queryArea()
     @Test
     public void testQueryArea(){
         List<Area> areaList=areaDao.queryArea();
