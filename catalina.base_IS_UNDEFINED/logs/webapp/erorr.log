@@ -1,0 +1,4 @@
+2021-01-05 22:26:24.428 [main] ERROR com.lu.schoolShop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2021-01-05 22:36:49.458 [main] ERROR com.lu.schoolShop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2021-01-05 22:37:16.412 [main] ERROR com.lu.schoolShop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2021-01-05 22:38:07.610 [main] ERROR com.lu.schoolShop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!

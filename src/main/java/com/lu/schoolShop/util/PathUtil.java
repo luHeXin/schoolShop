@@ -1,10 +1,12 @@
 package com.lu.schoolShop.util;
 
+
+
 public class PathUtil {
 	//获取文件的分隔符
 	private static String seperator = System.getProperty("file.separator");
 	//项目图片根路径
-	public static String getImgBasePath() {
+	public static String getImgBasePath(){
 		String os = System.getProperty("os.name");
 		String basePath = "";
 		if (os.toLowerCase().startsWith("win")) {
