@@ -1,84 +1,83 @@
-2021-01-05 22:09:46.556 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:09:46.558 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:09:46.567 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:09:46.604 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:09:46.535(Timestamp), 2021-01-05 22:09:46.535(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:09:46.712 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:09:46.748 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\46\2021010522094697477.jpg
-2021-01-05 22:09:46.748 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\46\2021010522094697477.jpg
-2021-01-05 22:09:46.748 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:09:46.931 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.updateShop] use [master] Strategy, SqlCommanType [UPDATE]..
-2021-01-05 22:09:46.931 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:09:46.950 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2021-01-05 22:09:46.951 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺3(String), test3(String), test3(String), test3(String), \upload\images\item\shop\46\2021010522094697477.jpg(String), 2021-01-05 22:09:46.535(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 46(Long)
-2021-01-05 22:09:46.967 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - <==    Updates: 1
-2021-01-05 22:26:23.889 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:26:23.931 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:26:23.983 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:26:24.028 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:26:23.8(Timestamp), 2021-01-05 22:26:23.8(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:26:24.071 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:26:24.154 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\47\2021010522262478818.jpg
-2021-01-05 22:26:24.155 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\47\2021010522262478818.jpg
-2021-01-05 22:26:24.155 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:36:49.341 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:36:49.343 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:36:49.353 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:36:49.392 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:36:49.321(Timestamp), 2021-01-05 22:36:49.321(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:36:49.401 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:36:49.423 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\48\2021010522364913455.jpg
-2021-01-05 22:36:49.423 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\48\2021010522364913455.jpg
-2021-01-05 22:36:49.423 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:37:16.228 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:37:16.230 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:37:16.237 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:37:16.269 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:37:16.21(Timestamp), 2021-01-05 22:37:16.21(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:37:16.373 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:37:16.389 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\49\2021010522371630603.jpg
-2021-01-05 22:37:16.390 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\49\2021010522371630603.jpg
-2021-01-05 22:37:16.390 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:37:55.103 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:37:55.104 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:37:55.113 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:37:55.146 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:37:55.086(Timestamp), 2021-01-05 22:37:55.086(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:37:55.159 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:37:55.176 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\50\2021010522375521777.jpg
-2021-01-05 22:37:55.177 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\50\2021010522375521777.jpg
-2021-01-05 22:37:55.177 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:37:55.641 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.updateShop] use [master] Strategy, SqlCommanType [UPDATE]..
-2021-01-05 22:37:55.641 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:37:55.659 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2021-01-05 22:37:55.660 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺3(String), test3(String), test3(String), test3(String), \upload\images\item\shop\50\2021010522375521777.jpg(String), 2021-01-05 22:37:55.086(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 50(Long)
-2021-01-05 22:37:55.662 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - <==    Updates: 1
-2021-01-05 22:38:07.510 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:38:07.511 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:38:07.520 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:38:07.553 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:38:07.492(Timestamp), 2021-01-05 22:38:07.492(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:38:07.566 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:38:07.584 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\51\2021010522380736701.jpg
-2021-01-05 22:38:07.584 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\51\2021010522380736701.jpg
-2021-01-05 22:38:07.584 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:40:52.036 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:40:52.039 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:40:52.047 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:40:52.083 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:40:52.014(Timestamp), 2021-01-05 22:40:52.014(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:40:52.094 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:40:52.111 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\52\2021010522405218146.jpg
-2021-01-05 22:40:52.111 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\52\2021010522405218146.jpg
-2021-01-05 22:40:52.111 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:40:52.284 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.updateShop] use [master] Strategy, SqlCommanType [UPDATE]..
-2021-01-05 22:40:52.285 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:40:52.309 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2021-01-05 22:40:52.310 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺3(String), test3(String), test3(String), test3(String), \upload\images\item\shop\52\2021010522405218146.jpg(String), 2021-01-05 22:40:52.014(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 52(Long)
-2021-01-05 22:40:52.331 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - <==    Updates: 1
-2021-01-05 22:45:21.805 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-05 22:45:21.806 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:45:21.815 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-05 22:45:21.849 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2021-01-05 22:45:21.787(Timestamp), 2021-01-05 22:45:21.787(Timestamp), 0(Integer), 审核中(String)
-2021-01-05 22:45:21.869 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-05 22:45:21.886 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\53\2021010522452168203.jpg
-2021-01-05 22:45:21.886 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\53\2021010522452168203.jpg
-2021-01-05 22:45:21.886 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-05 22:45:21.990 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.updateShop] use [master] Strategy, SqlCommanType [UPDATE]..
-2021-01-05 22:45:21.990 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-05 22:45:22.011 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2021-01-05 22:45:22.012 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺3(String), test3(String), test3(String), test3(String), \upload\images\item\shop\53\2021010522452168203.jpg(String), 2021-01-05 22:45:21.787(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 53(Long)
-2021-01-05 22:45:22.025 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - <==    Updates: 1
+2021-01-06 18:58:16.399 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 18:58:16.445 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 18:58:17.270 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 18:58:17.309 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 18:58:17.333 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 18:59:09.104 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 18:59:09.106 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 18:59:09.330 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 18:59:09.360 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 18:59:09.384 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:08:50.970 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:08:50.973 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:08:51.227 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:08:51.259 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:08:51.281 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:16:58.709 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:16:58.725 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:16:58.933 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:16:58.968 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:16:58.992 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:20:03.853 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:20:03.857 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:20:04.097 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:20:04.127 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:20:04.150 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:20:33.231 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:20:33.234 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:20:33.464 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2021-01-06 19:20:33.494 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:20:33.515 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2021-01-06 19:21:45.962 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:21:45.964 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:21:46.170 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:21:46.200 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:21:46.223 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:23:23.557 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:23:23.559 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:23:23.802 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2021-01-06 19:23:23.835 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:23:23.861 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2021-01-06 19:27:33.860 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:27:33.863 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:27:34.087 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:27:34.117 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:27:34.139 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:27:50.106 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:27:50.108 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:27:50.392 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:27:50.423 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:27:50.446 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:28:51.632 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:28:51.635 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:28:51.862 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:28:51.890 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:28:51.910 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:29:11.192 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:29:11.193 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:29:11.385 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:29:11.411 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:29:11.431 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:33:54.237 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:33:54.239 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:33:54.514 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2021-01-06 19:33:54.543 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:33:54.562 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2021-01-06 19:39:32.736 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-06 19:39:32.738 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-06 19:39:32.990 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2021-01-06 19:39:33.019 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2021-01-06 19:39:33.040 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2021-01-06 20:27:24.411 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
+2021-01-06 20:27:24.414 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
+2021-01-06 20:27:24.425 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2021-01-06 20:27:24.465 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺8(String), test8(String), test8(String), test8(String), null, null, 2021-01-06 20:27:24.39(Timestamp), 2021-01-06 20:27:24.39(Timestamp), 0(Integer), 审核中(String)
+2021-01-06 20:27:24.482 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
+2021-01-06 20:27:24.502 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\54\2021010620272475115.jpg
+2021-01-06 20:27:24.503 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\54\2021010620272475115.jpg
+2021-01-06 20:27:24.503 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
+2021-01-06 20:27:24.749 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.updateShop] use [master] Strategy, SqlCommanType [UPDATE]..
+2021-01-06 20:27:24.749 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
+2021-01-06 20:27:24.767 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2021-01-06 20:27:24.768 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺8(String), test8(String), test8(String), test8(String), \upload\images\item\shop\54\2021010620272475115.jpg(String), 2021-01-06 20:27:24.39(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 54(Long)
+2021-01-06 20:27:24.860 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - <==    Updates: 1
