@@ -2,6 +2,7 @@ package com.lu.schoolShop.web.superadmin;
 
 import com.lu.schoolShop.entity.Area;
 import com.lu.schoolShop.service.AreaService;
+
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,7 +20,7 @@ import java.util.logging.Logger;
 @Controller
 @RequestMapping("/superadmin")
 public class AreaController {
-    Logger logger= (Logger) LoggerFactory.getLogger(AreaController.class);
+//    Logger logger= (Logger) LoggerFactory.getLogger(AreaController.class);
 
     @Autowired//用到areaService时，自动注入其实现类
     private AreaService areaService;
@@ -27,7 +28,7 @@ public class AreaController {
     @RequestMapping(value = "/listarea",method = RequestMethod.GET)//get的传插会反映到url中
     @ResponseBody//将modelMap转换为json对象，返回给前端
     private Map<String,Object> listArea(){
-        logger.info("====start====");
+//        logger.info("====start====");
         long startTime=System.currentTimeMillis();
         Map<String,Object> modelMap=new HashMap<String,Object>();
         List<Area> list=new ArrayList<Area>();
@@ -41,7 +42,7 @@ public class AreaController {
             modelMap.put("errMsg",e.toString());
         }
         long endTime=System.currentTimeMillis();
-        logger.info("====end====");
+//        logger.info("====end====");
         return modelMap;
     }
 }
