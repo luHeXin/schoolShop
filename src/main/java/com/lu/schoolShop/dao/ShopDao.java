@@ -18,6 +18,7 @@ public interface ShopDao {
 	 *            返回的条数
 	 * @return
 	 */
+	//多参加入Param注解
 	List<Shop> queryShopList(@Param("shopCondition") Shop shopCondition, @Param("rowIndex") int rowIndex,
 			@Param("pageSize") int pageSize);
 

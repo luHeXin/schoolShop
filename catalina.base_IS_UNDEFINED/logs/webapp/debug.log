@@ -1,83 +1,143 @@
-2021-01-06 18:58:16.399 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 18:58:16.445 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 18:58:17.270 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 18:58:17.309 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 18:58:17.333 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 18:59:09.104 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 18:59:09.106 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 18:59:09.330 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 18:59:09.360 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 18:59:09.384 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:08:50.970 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:08:50.973 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:08:51.227 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:08:51.259 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:08:51.281 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:16:58.709 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:16:58.725 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:16:58.933 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:16:58.968 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:16:58.992 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:20:03.853 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:20:03.857 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:20:04.097 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:20:04.127 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:20:04.150 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:20:33.231 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:20:33.234 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:20:33.464 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
-2021-01-06 19:20:33.494 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:20:33.515 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
-2021-01-06 19:21:45.962 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:21:45.964 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:21:46.170 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:21:46.200 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:21:46.223 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:23:23.557 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:23:23.559 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:23:23.802 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
-2021-01-06 19:23:23.835 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:23:23.861 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
-2021-01-06 19:27:33.860 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:27:33.863 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:27:34.087 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:27:34.117 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:27:34.139 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:27:50.106 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:27:50.108 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:27:50.392 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:27:50.423 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:27:50.446 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:28:51.632 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:28:51.635 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:28:51.862 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:28:51.890 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:28:51.910 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:29:11.192 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:29:11.193 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:29:11.385 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:29:11.411 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:29:11.431 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:33:54.237 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:33:54.239 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:33:54.514 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2021-01-06 19:33:54.543 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:33:54.562 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
-2021-01-06 19:39:32.736 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopCategoryDao.queryShopCategory] use [slave] Strategy, SqlCommanType [SELECT]..
-2021-01-06 19:39:32.738 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
-2021-01-06 19:39:32.990 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
-2021-01-06 19:39:33.019 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2021-01-06 19:39:33.040 [main] DEBUG c.l.s.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
-2021-01-06 20:27:24.411 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.insertShop] use [master] Strategy, SqlCommanType [INSERT]..
-2021-01-06 20:27:24.414 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-06 20:27:24.425 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2021-01-06 20:27:24.465 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺8(String), test8(String), test8(String), test8(String), null, null, 2021-01-06 20:27:24.39(Timestamp), 2021-01-06 20:27:24.39(Timestamp), 0(Integer), 审核中(String)
-2021-01-06 20:27:24.482 [main] DEBUG com.lu.schoolShop.dao.ShopDao.insertShop - <==    Updates: 1
-2021-01-06 20:27:24.502 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\54\2021010620272475115.jpg
-2021-01-06 20:27:24.503 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\54\2021010620272475115.jpg
-2021-01-06 20:27:24.503 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
-2021-01-06 20:27:24.749 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.updateShop] use [master] Strategy, SqlCommanType [UPDATE]..
-2021-01-06 20:27:24.749 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
-2021-01-06 20:27:24.767 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2021-01-06 20:27:24.768 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺8(String), test8(String), test8(String), test8(String), \upload\images\item\shop\54\2021010620272475115.jpg(String), 2021-01-06 20:27:24.39(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 54(Long)
-2021-01-06 20:27:24.860 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - <==    Updates: 1
+2021-01-07 09:36:48.201 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryByShopId] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 09:36:48.316 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 09:36:50.051 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2021-01-07 09:36:50.124 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - ==> Parameters: 1(Long)
+2021-01-07 09:36:50.154 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - <==      Total: 1
+2021-01-07 09:41:53.299 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryByShopId] use [master] Strategy, SqlCommanType [SELECT]..
+2021-01-07 09:41:53.301 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
+2021-01-07 09:41:53.309 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2021-01-07 09:41:53.338 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - ==> Parameters: 1(Long)
+2021-01-07 09:41:53.360 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - <==      Total: 1
+2021-01-07 09:41:53.410 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\1\2021010709415316075.jpg
+2021-01-07 09:41:53.411 [main] DEBUG com.lu.schoolShop.util.ImageUtil - current complete addr is :D:\JAVA_places\schoolShop\picture\upload\images\item\shop\1\2021010709415316075.jpg
+2021-01-07 09:41:53.411 [main] DEBUG com.lu.schoolShop.util.ImageUtil - basePath is :/D:/JAVA_places/schoolShop/schoolShop/target/test-classes/
+2021-01-07 09:41:54.064 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.updateShop] use [master] Strategy, SqlCommanType [UPDATE]..
+2021-01-07 09:41:54.064 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
+2021-01-07 09:41:54.082 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2021-01-07 09:41:54.099 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - ==> Parameters: 修改后的店铺名称(String), \upload\images\item\shop\1\2021010709415316075.jpg(String), 2021-01-07 09:41:54.064(Timestamp), 1(Long)
+2021-01-07 09:41:54.119 [main] DEBUG com.lu.schoolShop.dao.ShopDao.updateShop - <==    Updates: 1
+2021-01-07 09:41:54.120 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryByShopId] use [master] Strategy, SqlCommanType [SELECT]..
+2021-01-07 09:41:54.121 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：master
+2021-01-07 09:41:54.121 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2021-01-07 09:41:54.123 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - ==> Parameters: 1(Long)
+2021-01-07 09:41:54.128 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryByShopId - <==      Total: 1
+2021-01-07 10:27:56.833 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:27:56.835 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:27:57.111 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:27:57.152 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 6(Integer)
+2021-01-07 10:27:57.176 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 0
+2021-01-07 10:27:57.185 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:27:57.185 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:27:57.186 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:27:57.186 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:27:57.188 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:30:20.591 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:30:20.595 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:30:20.868 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:30:20.901 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 0(Long), 0(Integer), 6(Integer)
+2021-01-07 10:30:20.924 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 0
+2021-01-07 10:30:20.932 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:30:20.933 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:30:20.933 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:30:20.934 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 0(Long)
+2021-01-07 10:30:20.936 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:30:33.648 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:30:33.651 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:30:33.875 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:30:33.904 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 6(Integer)
+2021-01-07 10:30:33.927 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 0
+2021-01-07 10:30:33.934 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:30:33.934 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:30:33.935 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:30:33.935 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:30:33.937 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:32:13.543 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:32:13.545 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:32:13.764 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:32:13.792 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 6(Integer)
+2021-01-07 10:32:13.814 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 0
+2021-01-07 10:32:13.823 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:32:13.823 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:32:13.824 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:32:13.824 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:32:13.827 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:33:04.092 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:33:04.096 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:33:04.342 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:33:04.381 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 6(Integer)
+2021-01-07 10:33:04.413 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 0
+2021-01-07 10:33:04.439 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:33:04.439 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:33:04.441 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:33:04.441 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:33:04.446 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:34:23.436 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:34:23.442 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:34:24.079 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:34:24.336 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 6(Integer)
+2021-01-07 10:34:24.584 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 0
+2021-01-07 10:35:28.274 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:35:28.274 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:35:28.275 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:35:28.276 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:35:28.280 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:36:01.224 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:36:01.227 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:36:01.516 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:36:01.545 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 6(Integer)
+2021-01-07 10:36:01.572 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 6
+2021-01-07 10:36:01.606 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:36:01.607 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:36:01.611 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:36:01.612 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:36:01.614 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:43:42.954 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:43:42.958 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:43:43.186 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:43:43.212 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 6(Integer)
+2021-01-07 10:43:43.236 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 0
+2021-01-07 10:43:43.243 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:43:43.243 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:43:43.243 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:43:43.244 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:43:43.246 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:45:40.032 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:45:40.035 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:45:40.382 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:45:40.411 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 6(Integer)
+2021-01-07 10:45:40.438 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 6
+2021-01-07 10:45:40.472 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:45:40.473 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:45:40.477 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:45:40.477 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:45:40.479 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:46:04.537 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:46:04.539 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:46:04.798 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:46:04.849 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 6(Integer)
+2021-01-07 10:46:04.882 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 6
+2021-01-07 10:46:04.931 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:46:04.932 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:46:04.941 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id in (select shop_category_id from tb_shop_category WHERE parent_id = ?) AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2021-01-07 10:46:04.942 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-01-07 10:46:04.947 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:54:30.563 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:54:30.566 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:54:30.801 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:54:30.831 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 6(Integer)
+2021-01-07 10:54:30.859 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 6
+2021-01-07 10:54:30.864 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:54:30.865 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:54:30.865 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc 
+2021-01-07 10:54:30.865 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 
+2021-01-07 10:54:30.866 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-01-07 10:56:45.581 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopList] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:56:45.583 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:56:45.789 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc ORDER BY s.priority DESC -- 分页 LIMIT ?,?; 
+2021-01-07 10:56:45.816 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 6(Integer)
+2021-01-07 10:56:45.855 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopList - <==      Total: 6
+2021-01-07 10:56:45.862 [main] DEBUG c.l.s.dao.split.DynamicDataSourceInterceptor - 设置方法[com.lu.schoolShop.dao.ShopDao.queryShopCount] use [slave] Strategy, SqlCommanType [SELECT]..
+2021-01-07 10:56:45.863 [main] DEBUG c.lu.schoolShop.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2021-01-07 10:56:45.863 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc 
+2021-01-07 10:56:45.863 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - ==> Parameters: 
+2021-01-07 10:56:45.864 [main] DEBUG com.lu.schoolShop.dao.ShopDao.queryShopCount - <==      Total: 1
